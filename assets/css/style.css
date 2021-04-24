@@ -414,7 +414,7 @@ font-size: 30px;
 .answer_input{
 	display:flex;
 	align-items: center;
-	margin-bottom:20px;
+	margin-bottom: 10px;
 }
 .question{
 	display:flex;
