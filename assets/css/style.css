@@ -603,9 +603,9 @@ font-size: 30px;
 		align-items: center;
 		padding: 1px 10px;
 	}
-	  input[type="radio"] {
+	input[type="radio"] {
 		-ms-transform: scale(0.9); /* IE 9 */
-		-webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+		-webkit-transform: scale(0); /* Chrome, Safari, Opera */
 		-moz-transform: scale(0.9);
 		-o-transform: scale(0.9);
 		transform: scale(0.9);
