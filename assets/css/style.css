@@ -559,7 +559,7 @@ font-size: 30px;
 		width: auto;
 		
 		color: #000000;
-		font-weight: bold;
+		font-weight: 200;
 		font-size: 25px;
 		transition: 0.6s ease;
 		border-radius: 0 3px 3px 0;
@@ -577,7 +577,7 @@ font-size: 30px;
 		top: 50%;
 		position: absolute;
 		color: #000000;
-		font-weight: bold;
+		font-weight: 200;
 		font-size: 25px;
 		transition: 0.6s ease;
 		margin-top: -30px;
@@ -604,12 +604,12 @@ font-size: 30px;
 		padding: 1px 10px;
 	}
 	input[type="radio"] {
-		-ms-transform: scale(0.1); /* IE 9 */
-		-webkit-transform: scale(0.7); /* Chrome, Safari, Opera */
-		-moz-transform: scale(0.7);
-		-o-transform: scale(0.7);
-		transform: scale(0.7);
-		margin-right: 10px;
+		-ms-transform: scale(0.9); /* IE 9 */
+		-webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+		-moz-transform: scale(0.9);
+		-o-transform: scale(0.9);
+		transform: scale(0.9);
+		margin-right: 15px;
 
 	}
 	.answer_row{
