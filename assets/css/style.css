@@ -611,7 +611,7 @@ font-size: 30px;
 		-webkit-transform: scale(1); /* Chrome, Safari, Opera */
 		-moz-transform: scale(1);
 		-o-transform: scale(1);
-		transform: scale(1);
+		
 		margin-right: 15px;
 
 	}
