@@ -409,8 +409,8 @@ input[type="radio"] {
     transform: scale(2);
 	margin-right: 10px;
 	-moz-transform: scale(2);
+	-webkit-appearance: radio;
 	-o-transform: scale(2);
-
 }
 .answer_row{
 display:flex;
@@ -612,6 +612,7 @@ font-size: 30px;
 		-moz-transform: scale(1);
 		-o-transform: scale(1);
 		transform: scale(1);
+		-webkit-appearance: radio;
 		margin-right: 15px;
 
 	}
