@@ -452,7 +452,7 @@ font-size: 30px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 200px 150px;
+	padding: 130px 150px;
 	background: rgba(196,196,196,0.5);
 }
 
@@ -490,34 +490,26 @@ font-size: 30px;
 
 
 .hi_submit {
-    color: #000000;
-    background: transparent;
-    border: 9px solid #000000;
-    position: absolute;
-    font-size: 30px;
-    letter-spacing: .3em;
-    font-family: 'GothamM', sans-serif;
-    padding: 0px 80px;
-    transition: .2s ease-in-out;
-    cursor: pointer;
-    text-decoration: none;
-	font-weight: 550;
-	
+	line-height: 0.1;
+    text-transform: uppercase;
+text-decoration: none;
+font-family: GothamM;
+color: #ffe852;
+font-size: 28px;
+letter-spacing: 8px;
+text-shadow: 0px 0px 5px black;
+border: 3px solid white;
+border-radius: 10px;
+padding: 10px 55px;
+display: flex;
+flex-direction: column;
+align-items: center;
+transition: 0.2s;
 }
-.hi_submit:before {
-    content: "";
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    width: 100%;
-    height: 100%;
-    background: #f3cd45;
-    z-index: -1;
-    transition: .25s ease;
-    transform: translate(0, 0);
-}
+
 .hi_submit:hover {
-    transform: translate(4px, 4px);
+    transform: scale(1.1);
+text-shadow: 0px 0px 7px #fdee8e;
 }
 @media (max-width: 450px) {
 	.hi {
@@ -596,7 +588,7 @@ font-size: 30px;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding: 60px 20px;
+		padding: 60px 35px;
 		background: rgba(196,196,196,0.5);
 	}
 	.box_row {
@@ -628,32 +620,26 @@ font-size: 30px;
 		margin-top: 30px;
 	}
 	.hi_submit {
-		color: #000000;
-		background: transparent;
-		border: 5px solid #000000;
-		position: relative;
-		font-size: 16px;
-		letter-spacing: .3em;
-		font-family: 'GothamM', sans-serif;
-		padding: 0px 3px;
-		transition: .2s ease-in-out;
-		cursor: pointer;
-		text-decoration: none;
+		line-height: 0.1;
+		text-transform: uppercase;
+	text-decoration: none;
+	font-family: GothamM;
+	color: #ffe852;
+	font-size: 15px;
+	letter-spacing: 8px;
+	text-shadow: 0px 0px 5px black;
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 10px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.2s;
 	}
-	.hi_submit:before {
-		content: "";
-		position: absolute;
-		top: 10px;
-		left: 10px;
-		width: 100%;
-		height: 100%;
-		background: #f3cd45;
-		z-index: -1;
-		transition: .25s ease;
-		transform: translate(0, 0);
-	}
+	
 	.hi_submit:hover {
-		transform: translate(4px, 4px);
+		transform: scale(1.1);
+	text-shadow: 0px 0px 7px #fdee8e;
 	}
 }
  
@@ -748,32 +734,26 @@ font-size: 30px;
 		margin-top: 30px;
 	}
 	.hi_submit {
-		color: #000000;
-		background: transparent;
-		border: 6px solid #000000;
-		position: relative;
-		font-size: 20px;
-		letter-spacing: .3em;
-		font-family: 'GothamM', sans-serif;
-		padding: 5px 35px;
-		transition: .2s ease-in-out;
-		cursor: pointer;
-		text-decoration: none;
+		line-height: 0.1;
+		text-transform: uppercase;
+	text-decoration: none;
+	font-family: GothamM;
+	color: #ffe852;
+	font-size: 22px;
+	letter-spacing: 8px;
+	text-shadow: 0px 0px 5px black;
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 10px 45px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.2s;
 	}
-	.hi_submit:before {
-		content: "";
-		position: absolute;
-		top: 18px;
-		left: 18px;
-		width: 100%;
-		height: 100%;
-		background: #f3cd45;
-		z-index: -1;
-		transition: .25s ease;
-		transform: translate(0, 0);
-	}
+	
 	.hi_submit:hover {
-		transform: translate(4px, 4px);
+		transform: scale(1.1);
+	text-shadow: 0px 0px 7px #fdee8e;
 	}
 }
  @media (min-width: 771px) and (max-width: 1025px) {
@@ -872,31 +852,25 @@ font-size: 30px;
 		margin-top: 30px;
 	}
 	.hi_submit {
-		color: #000000;
-		background: transparent;
-		border: 7px solid #000000;
-		position: relative;
-		font-size: 25px;
-		letter-spacing: .3em;
-		font-family: 'GothamM', sans-serif;
-		padding: 5px 65px;
-		transition: .2s ease-in-out;
-		cursor: pointer;
-		text-decoration: none;
+		line-height: 0.1;
+		text-transform: uppercase;
+	text-decoration: none;
+	font-family: GothamM;
+	color: #ffe852;
+	font-size: 28px;
+	letter-spacing: 8px;
+	text-shadow: 0px 0px 5px black;
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 10px 55px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.2s;
 	}
-	.hi_submit:before {
-		content: "";
-		position: absolute;
-		top: 15px;
-		left: 15px;
-		width: 100%;
-		height: 100%;
-		background: #f3cd45;
-		z-index: -1;
-		transition: .25s ease;
-		transform: translate(0, 0);
-	}
+	
 	.hi_submit:hover {
-		transform: translate(4px, 4px);
+		transform: scale(1.1);
+	text-shadow: 0px 0px 7px #fdee8e;
 	}
 }
